@@ -1,0 +1,193 @@
+body {
+    font-family: monospace;
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408-825x465.jpg");
+    background-size: cover;
+    background-position:center;
+    padding: 0;
+}
+h1,h2,h3,h4 {
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 1;
+    width: 100%;
+    padding: 0%;
+    
+}
+li a {
+    display: block;
+    color: white;
+    background-color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+  }
+li a:hover {
+    background-color:yellowgreen;
+    color: black;
+  }
+.topics {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.topic {
+    padding: 3%;
+}
+img {
+    transform: rotate(270deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border:1px solid rgb(27, 25, 34)
+}
+p {
+    color: rgb(8, 8, 6);
+    animation-duration: 2s;
+    animation-name: slidein;
+      }
+       @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%; 
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+    }
+.topic1 {
+    background-color:rgb(241, 218, 5, 0.8);
+    float: left;
+    }
+.topic2 {
+    
+}
+.skill {
+    border:1px solid rgb(241, 218, 5);
+    background-color: rgb(46, 44, 44);
+    color: rgb(243, 241, 241);  
+}
+.topic3 {
+
+}
+.expertise {
+    border:1px solid rgb(241, 218, 5);
+    background-color: rgb(46, 44, 44);
+    color: rgb(243, 241, 241);
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#expertises{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+.topic4 {
+    padding: 0;  
+}
+.school {
+    border:1px solid rgb(241, 218, 5);
+    background-color: rgb(46, 44, 44);
+    color: rgb(243, 241, 241);
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 0;
+}
+#schools {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.topic5 {
+    padding: 0;
+}
+.certificate {
+    border:1px solid rgb(241, 218, 5);
+    background-color: rgb(46, 44, 44);
+    color: rgb(243, 241, 241);
+    width: 100%;
+    margin-bottom: 5px;
+}
+#certificates {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.topic6 {
+    padding: 0;
+}
+.language {
+    border:1px solid rgb(241, 218, 5);
+    background-color: rgb(46, 44, 44);
+    color: rgb(243, 241, 241);
+    width: 100%;
+    margin-bottom: 5px;
+}
+#languages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+footer {
+    color: black;
+    text-align: center;
+}
+footer a{
+    background-color: rgb(241, 218, 5);
+    
+}
+.polling_message {
+    color: white;
+    float: left;
+    margin-right: 2%;
+    width: 100%;            
+  }
+  
+  .view_port {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .cylon_eye {
+    background-color: red;
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, .9) 25%,
+        rgba(0, 0, 0, .1) 50%,
+        rgba(0, 0, 0, .9) 75%);
+    color: white;
+    height: 100%;
+    width: 20%;
+  
+    -webkit-animation: 4s linear 0s infinite alternate move_eye;
+            animation: 4s linear 0s infinite alternate move_eye;
+  }
+  
+  @-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+          @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+@media (min-width: 480px){
+img {
+    width: 20%;
+    }
+}
+ /*computer screen	1024 x 768 */ 
+@media (min-width: 1024px){
+img {
+    width: 12%;
+    }
+}
